@@ -1,0 +1,252 @@
+.ActionMenu{
+    cursor: pointer;
+}
+.p-inputswitch.p-component.p-inputswitch-checked.status-input {
+    display: inline-block;
+    position: relative;
+    top: 0px !important;
+    transform: scale(0.9) !important;
+}
+span.user-name{
+    background-color: #eae6e6a3;
+  padding: 0px;
+  border-radius: 20%;
+  font-size: 12px;
+  color: #3276b8;
+  margin-right: 10px;
+  font-weight: 600;
+  vertical-align: middle;
+  display: table-cell;
+  text-align: center;
+  width: 50px;
+  height: 50px;
+}
+span.user-name img{
+    width: 50px;
+    height: 50px;
+    border-radius: 20%;
+  }
+  span.complete-user-name{
+    vertical-align: middle;
+    display: table-cell;
+    text-align: left;
+    width: 60px;
+    position: relative;
+    left: 5px;
+    word-break: break-word;
+  }
+.p-button {
+    margin: 1px;
+    padding: 5px;
+    font-size: 14px;
+}
+.resourceTBL-spinner-div{
+   text-align: center;
+   margin-top: 10%;
+   margin-bottom: 10%;
+
+}
+
+
+
+.p-datatable table{
+    border-collapse: separate;
+    border-spacing: 0;
+    width: 100%;
+    background-color:#fafafa;
+}
+
+.p-scrollpanel:hover .p-scrollpanel-bar, .p-scrollpanel:active .p-scrollpanel-bar {
+    opacity: 0;
+}
+
+.p-tree{
+    width: 75% !important;
+}
+
+
+.p-dialog .p-dialog-content{
+
+    padding-left: 15px !important;
+}
+.pr_id_2{
+    left: 0px !important;
+}
+/* .card{
+    border: 1px solid #cccc;
+} */
+.datatable-selection-demo .card h6 {
+    margin-top: 2rem;
+}
+.datatable-selection-demo .card h6:first-of-type {
+    margin-top: 0;
+}
+.datatable-rowexpansion-demo .product-image {
+    width: 100px;
+   
+}
+
+.datatable-rowexpansion-demo .orders-subtable {
+    padding: 1rem;
+}
+       
+
+.datatable-doc-demo .p-paginator .p-paginator-current {
+    margin-left: auto;
+}
+
+.datatable-doc-demo .p-progressbar {
+    height: .5rem;
+}
+
+.datatable-doc-demo .p-progressbar .p-progressbar-value {
+    background-color: #607D8B;
+}
+
+.datatable-doc-demo .table-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.datatable-doc-demo .p-datepicker {
+    min-width: 25rem;
+}
+
+.datatable-doc-demo .p-datepicker td {
+    font-weight: 400;
+}
+
+.datatable-doc-demo .p-datatable.p-datatable-customers .p-datatable-header {
+    padding: 1rem;
+    text-align: left;
+    font-size: 1.5rem;
+}
+
+.datatable-doc-demo .p-datatable.p-datatable-customers .p-paginator {
+    padding: 1rem;
+}
+
+.datatable-doc-demo .p-datatable.p-datatable-customers .p-datatable-thead > tr > th {
+    text-align: left;
+}
+.p-datatable .p-datatable-thead > tr > th{
+    color: #4950579e;
+
+}
+
+.datatable-doc-demo .p-datatable.p-datatable-customers .p-datatable-tbody > tr > td {
+    cursor: auto;
+}
+
+.datatable-doc-demo .p-datatable.p-datatable-customers .p-dropdown-label:not(.p-placeholder) {
+    text-transform: uppercase;
+}
+
+.datatable-doc-demo .p-datatable-customers .p-datatable-tbody > tr > td .p-column-title {
+    display: none;
+}
+
+.p-datatable .p-datatable-tbody>tr>td,.p-datatable.p-datatable-lg .p-datatable-thead > tr > th,.p-datatable.p-datatable-lg .p-datatable-header {
+    padding: 2px 10px !important;
+    font-size: 14px;
+    font-weight: 500;
+    border:none;
+}
+.p-datatable.p-datatable-hoverable-rows .p-datatable-tbody > tr:not(.p-highlight):hover {
+    background: #fff;
+    color: #495057;
+}
+.p-datatable .p-datatable-tbody>tr>td{
+    border-bottom: 2px solid #fafafa  !important;
+}
+.p-datatable .p-datatable-tbody>tr>td{
+    border-top: 2px solid #fafafa!important;
+}
+
+.p-datatable .p-datatable-tbody tr > td:first-child {
+    border-radius: 10px 0px 0px 10px;
+}
+.p-datatable .p-datatable-tbody tr > td:last-child {
+    border-radius: 0px 10px 10px 0px;
+}
+
+.wrapper {
+    background-color: #fafafa;
+    height: auto;
+}
+.card{
+    box-shadow: none;
+}
+.p-button.p-button-info{
+    background: #4f8eca;
+    border: 1px solid #4f8eca;
+}
+.p-datatable .p-datatable-tbody>tr{
+    border-bottom: 1px solid gainsboro !important;
+
+}
+.p-datatable-resizable>.p-datatable-wrapper{
+    overflow-x: visible
+}
+@media screen and (max-width: 960px) {
+    .datatable-doc-demo .p-datatable.p-datatable-customers .p-datatable-thead > tr > th,
+    .datatable-doc-demo .p-datatable.p-datatable-customers .p-datatable-tfoot > tr > td {
+        display: none !important;
+    }
+
+    .datatable-doc-demo .p-datatable.p-datatable-customers .p-datatable-tbody > tr {
+        border-bottom: 1px solid var(--layer-2);
+    }
+
+    .datatable-doc-demo .p-datatable.p-datatable-customers .p-datatable-tbody > tr > td {
+        text-align: left;
+        display: block;
+        border: 0 none !important;
+        width: 100% !important;
+        float: left;
+        clear: left;
+        border: 0 none;
+    }
+
+    .datatable-doc-demo .p-datatable.p-datatable-customers .p-datatable-tbody > tr > td .p-column-title {
+        padding: .4rem;
+        min-width: 30%;
+        display: inline-block;
+        margin: -.4rem 1rem -.4rem -.4rem;
+        font-weight: bold;
+    }
+
+    .datatable-doc-demo .p-datatable.p-datatable-customers .p-datatable-tbody > tr > td .p-progressbar {
+        margin-top: .5rem;
+    }
+    /* .p-component {
+        font-size: 10px !important;
+    } */
+    
+    
+}
+
+
+.multiselect-demo .p-multiselect {
+    min-width: 15rem;
+}
+
+.multiselect-demo .multiselect-custom .p-multiselect-label:not(.p-placeholder):not(.p-multiselect-items-label) {
+    padding-top: .25rem;
+    padding-bottom: .25rem;
+}
+
+.multiselect-demo .multiselect-custom .country-item-value {
+    padding: .25rem .5rem;
+    border-radius: 3px;
+    display: inline-flex;
+    margin-right: .5rem;
+    background-color: var(--primary-color);
+    color: var(--primary-color-text);
+}
+
+.multiselect-demo .multiselect-custom .country-item-value img.flag {
+    width: 17px;
+}
+     
+

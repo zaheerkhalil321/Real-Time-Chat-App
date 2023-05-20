@@ -1,0 +1,25 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+body,
+span,
+label,
+input,
+select,
+textarea,
+a {
+  font-family: nimbus-san-regular;
+}
+
+@font-face {
+    font-family: nimbus-san-regular;
+    src: url(nimbus-san-regular.otf);
+}
+.wrapper {
+    background-color: #fafafa;
+    height: auto;
+}

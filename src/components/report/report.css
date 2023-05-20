@@ -1,0 +1,208 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+body,
+span,
+a {
+  font-family: Arial;
+}
+/* 
+@font-face {
+    font-family: Arial;
+    src: url(arial.ttf);
+} */
+.home-resources h6 {
+  font-size: 13px;
+  font-weight: 600;
+}
+.home-resources h6 span,
+.home-resources h6 a {
+  color: #4f8eca;
+}
+
+.home-resources h6 {
+  font-size: 13px;
+  font-weight: 600;
+}
+.home-resources h6 span {
+  color: #4f8eca;
+}
+.home-resources h6 a {
+  color: #5f697a;
+}
+
+.resources-heading h1 {
+  color: #575757;
+  font-size: 22px;
+  font-weight: 600;
+}
+.wrapper {
+  background-color: #fafafa;
+  height: auto;
+}
+.navbar {
+  padding-bottom: 0px;
+  border-bottom: 2px solid #4f8eca;
+  margin-bottom: 15px;
+  opacity: 0.7;
+}
+.p-dropdown {
+  display: flex;
+  cursor: pointer;
+  position: relative;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.p-multiselect-panel {
+  max-height: 400px;
+  width: 300px;
+}
+.p-dropdown-label {
+  /* overflow: hidden; */
+  flex: 1 1 auto;
+}
+.p-dropdown-items-wrapper {
+  max-height: 200px;
+}
+
+.dropdown-demo .p-dropdown {
+  width: 14rem;
+}
+
+.dropdown-demo .country-item-value img.flag {
+  width: 17px;
+}
+
+.report .p-calendar {
+  flex: 7 1 auto;
+  width: 100%;
+}
+
+.p-datepicker {
+  width: 33% !important;
+}
+.p-datepicker table td {
+  padding: 0px;
+}
+.p-datepicker table th {
+  padding: 0px;
+}
+.report .p-inputtext {
+  width: 100%;
+  padding-bottom: 10px;
+  margin-top: 0px;
+}
+
+.report .form-control {
+  line-height: 0.3;
+  padding: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  height: 45px;
+}
+
+.spinner-div {
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.spinner-TBLdiv {
+  text-align: center;
+}
+
+.verticle {
+  transform: rotate(-90deg);
+  transform-origin: left top 0;
+  margin-top: 60px;
+}
+.view-report .clear-btn {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  float: left;
+  text-transform: uppercase;
+  padding: 6px 20px;
+  border-radius: 5px;
+  border: none;
+  background: none;
+  background-color: #858796;
+  margin-right: 10px;
+}
+.view-report .search-btn {
+  background-color: #087ff2;
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  padding: 6px 20px;
+  text-transform: uppercase;
+  float: right;
+  border-radius: 5px;
+  font-weight: 600;
+  outline: none;
+  background: linear-gradient(45deg, #1e71c2, #087ff2b8);
+}
+.view-report input.p-inputtext,
+.view-report .p-dropdown {
+  padding: 8px 10px;
+  border-radius: 5px;
+  border: 1px solid#c9e8ff;
+  background-color: #fff;
+  transition: unset;
+  color: #807c7cdb;
+  font-size: 14px;
+  outline: none;
+  width: 100%;
+}
+.view-report .report .p-inputtext {
+  width: 100%;
+  padding-bottom: 10px;
+  margin-top: 0px;
+  padding: 11px;
+  color: grey;
+}
+
+@media (max-width: 576px) {
+  .p-xs-12 {
+    width: 100%;
+  }
+  .p-datepicker {
+    width: 33% !important;
+  }
+  .p-datepicker table td {
+    padding: 0px;
+  }
+  .p-datepicker table th {
+    padding: 0px;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .p-datepicker {
+    width: 38% !important;
+  }
+  .p-datepicker table td {
+    padding: 0px;
+  }
+  .p-datepicker table th {
+    padding: 0px;
+  }
+}
+@media (max-width: 575px) {
+  .p-dropdown-panel.p-component.p-connected-overlay-enter-done {
+    width: 100% !important;
+  }
+  .p-datatable-thead .p-inputtext {
+    width: 100%;
+  }
+  .switch-btn .switch {
+    margin-right: 10px;
+  }
+}

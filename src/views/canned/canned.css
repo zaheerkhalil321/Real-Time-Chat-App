@@ -1,0 +1,399 @@
+.home-resources h6 {
+    font-size: 13px;
+    font-weight: 600;
+}
+.table-css .table-css .p-treetable-scrollable-body{
+    max-height: 400px !important;
+    height: 400px;
+}
+.table-css .p-treetable .p-treetable-header{
+    padding: 0% !important;
+}
+.btn-secondary:hover{
+    background-color: #4f8eca;
+    border-color: #4f8eca;
+}
+.divcount2{
+    height: 33px;
+    margin-top: 10px;
+}
+.lblcount2{
+    float: right;
+}
+.navbar {
+    padding-bottom: 0;
+    border-bottom: 2px solid #4f8eca;
+    margin-bottom: 15px;
+    opacity: 0.7;
+}
+.home-resources h6 span {
+    color: #4f8eca;
+  }
+  .home-resources h6 a {
+    color: #575757;
+  }
+  .resources-heading h1 {
+    color: #575757;
+    font-size: 22px;
+    font-weight: 600;
+  }
+.colordropdown{
+    width: "188px";
+    height: "30px";
+    margin-left: "4%";
+    font-size: 12
+}
+.checkbox{
+    margin-top: 10px;
+}
+.lockmsglbl{
+    margin-left: 5px;
+    font-weight: bold;
+    margin-top: 2%;
+    margin-right: 20px;
+}
+.btnwidth{
+    width: 145px;
+    background-color: #5579c8;
+}
+.btnrow{
+    margin-top: 1%;
+}
+img.popUpCross {
+    width: 25px;
+    cursor: pointer;
+}
+.modalMainParent{
+    width: 100%;
+    margin: 0px;
+    }
+.imageCrossParent.row {
+      width: 100%;
+      justify-content: flex-end;
+      margin: 0px;
+  }
+  .table-css .treetable-editing-demo .p-treetable .p-treetable-tbody > tr > td.p-cell-editing {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.loader-div{
+    margin-left: 47%;
+    margin-top: 8%;
+    margin-bottom: 8%;
+}
+.websitedropdown .p-dropdown-items-wrapper{
+    width: fit-content;
+}
+.fontbold{
+    font-weight: bold;
+    width: 20%;
+    float: left;
+    padding: 10px 0px;
+}
+.loader-div .pi-spinner:before {
+    font-size: 30px;
+}
+.loadmsg{
+    width: 135px;
+}
+.dropdown-style .p-dropdown.p-component.p-inputwrapper.websitedropdown.p-dropdown-clearable,.dropdown-style .languagedropdown{
+    width: 80% !important;
+}
+.div1 {
+    width: 20px;
+    height: 20px;
+    border: 1px solid blue;
+    box-sizing: border-box;
+    background-color:blue;
+    position: absolute;
+  }
+  
+  .div2 {
+      position: absolute;
+    width: 20px;
+    height: 20px;  
+    background-color: red;
+    border: 1px solid red;
+    box-sizing: border-box;
+  }
+.colorbox{
+    width: ' 20px';
+    height: ' 20px';
+    box-sizing: 'border-box';
+    position: 'absolute';
+}
+.table-css .p-treetable .p-treetable-tbody > tr > td{
+    padding: 5px;
+}
+.backgroundcolor{
+    background-color: #5579c8;
+}
+.colorwidth{
+    width: 12%;
+}
+.expirtywidth{
+    width: 14%;
+}
+.tktwidth{
+    width: 10%;
+}
+ .p-dropdown-panel{
+    width: 2%;
+}
+
+.dropdowncss .dropdown-textbox {
+    float: left;
+    width: 100%;
+}
+ .p-dropdown-panel{
+    z-index: 1001;
+    min-width: 92px;
+    transform-origin: center top;
+    top: 440.653px;
+    left: 878.434px;
+}
+.table-css .p-input-icon-left > .p-inputtext{
+    padding-left: 2rem;
+    height: 34px;
+    font-size: 13px;
+    width: 100%;
+}
+.table-css .p-inputtext{
+    border-radius: 20px;
+}
+.table-css .pi-search:before{
+    content: "\e908";
+    font-size: 14px
+}
+.importmsgs_div .pi-plus:before{
+    content: none;
+}
+.importmsgs_div .p-button{
+    background-color: #5579c8;
+    padding: 5px;
+    margin-right: 15px;
+}
+.importmsgs_div .p-button .p-button-icon-left{
+    margin-right: 0px;
+}
+.p-dialog-footer > div{
+    display: inline-flex;
+}
+
+.p-button .p-button-icon-left{
+    margin-right: 0rem;
+}
+.pi-plus:before{
+    content: none;
+}
+
+.table-css .pi-spinner:before{
+    font-size: 40px;
+}
+
+@media (max-width: 1250px) {
+    .btnwidth{
+        width: 16%;
+        justify-content: space-between;
+        background-color: #5579c8;
+    }
+    .websitedropdown{
+        width: 70%;
+    }
+    .languagedropdown{
+        width: 70%;
+    }
+    .btn-toolbar{
+        margin-left: 0% !important;
+    }
+  }
+  @media (max-width: 1000px) {
+    .btnwidth{
+        width: 16%;
+        justify-content: space-between;
+        background-color: #5579c8;
+    }
+    .websitedropdown{
+        width: 80%;
+    }
+    .dropdowncss .dropdown-demo .p-dropdown{
+        width: 80% !important;
+    }
+    .languagedropdown{
+        width: 80%;
+    }
+    .loadmsg{
+        margin-top: 2%;
+    }
+    .lblcount2{
+        font-size: 13px;
+    }
+  }
+  @media (max-width: 800px) {
+    .btnwidth{
+        width: 130px;
+        font-size: 13px;
+        background-color: #5579c8;
+    }
+    .importmsgs_div .p-button{
+        font-size: 13px;
+        padding: 6px;
+        width: 100%;
+    }
+    .websitedropdown{
+        width: 80%;
+    }
+    .languagedropdown{
+        width: 80%;
+    }
+    .btn-toolbar{
+        margin-left: 0% !important;
+        margin-top: 1% !important;
+        justify-content: space-between;
+    }
+    .loadmsg{
+        margin-top: 4%;
+        margin-left: 0%;
+        width: 130px;
+        font-size: 13px;
+    }
+    .btn-toolbar > .btn{
+        margin-right: 0rem !important;
+    }
+    .colorwidth{
+        width: auto !important;
+    }
+    .expirtywidth{
+        width: auto !important;
+    }
+    .tktwidth{
+        width: auto !important;
+    }
+    .fontbold{
+        font-size: 13px;
+        width: 12%;
+        padding: 10px 0px;
+    }
+    .dropdowncss .p-dropdown.p-dropdown-clearable .p-dropdown-label{
+        font-size: 13px;
+    }
+    .p-toast{
+        width: 12rem;
+    }
+    .table-css .pi-spinner:before{
+        font-size: 30px;
+    }
+  }
+  @media (max-width:500px){
+    .table-css .p-input-icon-left, .p-input-icon-right{
+        width: 100%;
+        font-size: 10px;
+    }
+    .loader-div .pi-spinner:before {
+        font-size: 20px;
+    }
+    .table-css .pi-search:before{
+        font-size: 9px;
+    }
+    .btnwidth{
+        width: 95px;
+        font-size: 10px;
+    }
+    .importmsgs_div .p-button{
+        font-size: 10px;
+        width: 95px;
+        margin-right: 0px;
+    }
+    .loadmsg{
+        width: 95px !important;
+        font-size: 10px !important;
+    }
+    .websitedropdown{
+        width: 100% !important;
+        margin-left: 0% !important;
+    }
+    .dropdown-style .p-dropdown.p-component.p-inputwrapper.websitedropdown.p-dropdown-clearable, .dropdown-style .languagedropdown{
+        width: 100% !important ;
+    }
+    .dropdowncss .dropdown-demo .p-dropdown{
+        width: 100% !important;
+    }
+    .languagedropdown{
+        width: 100%;
+        margin-left: 0% !important;
+        margin-top: 0% !important;
+    }
+      .colorwidth{
+          width: auto !important;
+      }
+      .expirtywidth{
+          width: auto !important;
+      }
+      .tktwidth{
+          width: auto !important;
+      }
+      .fontbold{
+        font-size: 11px;
+        width: 10%;
+        padding: 10px 0px;
+        float: none;
+    }
+    .dropdowncss .p-dropdown.p-dropdown-clearable .p-dropdown-label{
+        font-size: 12px;
+    }
+    .p-toast{
+        width: 10rem;
+        font-size: 10px;
+    }
+    .dropdowncss .dropdown-textbox{
+        width: auto;
+    }
+    .table-css .p-input-icon-left>i, .p-input-icon-right>i, .p-input-icon-left>svg, .p-input-icon-right>svg, .p-input-icon-left>.p-input-prefix, .p-input-icon-right>.p-input-suffix{
+        margin-top: -.6rem;
+    }
+    .lblcount2{
+        font-size: 10px;
+    }
+    .table-css .pi-spinner:before{
+        font-size: 20px;
+    }
+  }
+  @media (max-width:300px){
+    .table-css .p-input-icon-left, .p-input-icon-right{
+        width: auto;
+    }
+    .btnwidth{
+        width: 95px;
+        font-size: 10px;
+    }
+    .loadmsg{
+        width: 95px !important;
+        font-size: 10px !important;
+    }
+    .websitedropdown{
+        width: 100%;
+        margin-left: 0% !important;
+    }
+    .languagedropdown{
+        width: 100%;
+        margin-left: 0% !important;
+        margin-top: 0% !important;
+    }
+    .btn-toolbar{
+        margin-left: 0% !important;
+        margin-top: 1% !important;
+        justify-content: space-between;
+    }
+    .btn-toolbar > .btn{
+        margin-right: 0rem !important;
+    }
+    .fontbold{
+        font-size: 11px;
+    }
+    .p-dropdown.p-dropdown-clearable .p-dropdown-label{
+        font-size: 12px;
+    }
+    .p-toast{
+        width: 6rem;
+    }
+  }

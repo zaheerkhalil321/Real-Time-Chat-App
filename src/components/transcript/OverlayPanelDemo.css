@@ -1,0 +1,84 @@
+
+.Transcript .overlaypanel-demo .select-product-button {
+    min-width: 15rem;
+}
+
+.Transcript .overlaypanel-demo .product-image {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.pi-angle-down:before {
+    content: "\e930";
+    padding: 12px;
+    font-size: 14px;
+}
+
+.Transcript .p-overlaypanel{
+    width: 400px;
+    z-index: 1012;
+    transform-origin: center right;
+    top: 254px;
+    /* right: 300px !important; */
+    left: 820px !important;
+    --overlayArrowLeft: 35px;
+}
+
+.Transcript .p-overlaypanel .p-overlaypanel-content {
+    padding: 0px;
+    height: 305px !important;
+}
+
+.Transcript .p-scrollpanel-wrapper {
+    overflow: scroll;
+    width: 100%;
+    height: 60%;
+    /* position: relative; */
+    z-index: 1;
+    float: left;
+    border-radius: 11px
+}
+.Transcript .p-scrollpanel-content {
+    height: auto;
+    /* padding: 5px 18px 18px 0; */
+    position: relative;
+    overflow: auto;
+    box-sizing: border-box;
+}
+
+.overlay-box{
+    transform: none;
+    border-radius: 10px !important;
+    padding-bottom: 10px;
+}
+
+.overlay-box  .p-treetable .p-treetable-thead > tr > th {
+    text-align: left;
+    padding: 4px;   
+    font-weight: 600;
+    color: #495057;
+    background: #f8f9fa !important;
+    transition: box-shadow 0.2s;
+}
+.overlay-box  .p-treetable-header {
+    border-radius: 10px;
+}
+.overlay-box  .p-treetable .p-treetable-tbody > tr > td {
+    text-align: left;
+    /* border: 1px solid #e9ecef; */
+    /* border-width: 0 0 1px 0; */
+    padding: 0px;
+}
+
+.overlay-box  .p-treetable .p-treetable-header {
+    height: 50px;
+    width: 96%;
+    background: white;
+    text-align: left;
+    padding: 2px 7px;
+  
+}
+.overlay-box  .p-treetable-scrollable-body{
+height: 200px;
+border-bottom-left-radius: 10px;
+border-bottom-right-radius: 10px;
+}

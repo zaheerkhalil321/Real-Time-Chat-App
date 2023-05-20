@@ -1,0 +1,21 @@
+.toast-demo button {
+    min-width: 10rem;
+    margin-right: .5rem;
+}
+
+.p-toast .p-toast-message .p-toast-message-content .p-toast-message-icon {
+    font-size: 22px !important;
+}
+
+@media screen and (max-width: 960px) {
+    .toast-demo button {
+        width: 100%;
+        margin-bottom: .5rem;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .p-toast {
+        width: 18rem;
+    }
+}

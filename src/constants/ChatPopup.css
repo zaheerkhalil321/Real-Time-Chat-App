@@ -1,0 +1,27 @@
+h5.modal-title {
+    color: #000;
+}
+
+.chatpopup .modal-header {
+    border: none;
+    padding-bottom: 0px;
+}
+
+.chatpopup .modal-content {
+    border-radius: 0px;
+    border: 1px solid #000;
+}
+
+.chatpopup .p-datatable .p-datatable-tbody > tr > td,
+.chatpopup .p-datatable .p-datatable-thead > tr > th {
+    text-align: left;
+    border: 1px solid #ccc;
+    border-width: 1px;
+    padding: 1rem 1rem;
+    outline-color: #a6d5fa;
+}
+@media (min-width: 576px) {
+    .modal-dialog.chatpopup {
+        max-width: 500px;
+    }
+}

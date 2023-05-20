@@ -1,0 +1,55 @@
+.colordropdown{
+            width: "188px";
+            height: "30px";
+            margin-left: "4%";
+            font-size: 12
+}
+.weblbl{
+    margin-top: 13%;
+}
+.checkbox{
+    margin-top: 10px;
+}
+.lockmsglbl{
+    margin-left: 5px;
+    font-weight: bold;
+}
+.btnrow{
+    margin-top: 12px;
+}
+.btn_right{
+    float: right;
+}
+.btnleft{
+    margin-left: 20px;
+}
+img.popUpCross {
+    width: 25px;
+    cursor: pointer;
+}
+.modalMainParent{
+    width: 100%;
+    margin: 0px;
+    }
+    .imageCrossParent.row {
+      width: 100%;
+      justify-content: flex-end;
+      margin: 0px;
+  }
+  .treetable-editing-demo .p-treetable .p-treetable-tbody > tr > td.p-cell-editing {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.spinner-div{
+    margin: auto;
+    margin-top: 8%;
+}
+
+
+.pi-spinner:before {
+    font-size: 50px;
+}
+
+.p-dropdown-panel{
+    width: 30% !important;
+}

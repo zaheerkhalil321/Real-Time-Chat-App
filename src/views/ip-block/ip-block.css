@@ -1,0 +1,244 @@
+.ip-Block .clear-btn,
+.ip-Block .search-btn {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  float: right;
+  text-transform: uppercase;
+  padding: 6px 20px;
+  border-radius: 5px;
+  border: none;
+  background: none;
+  background-color: #858796;
+  border: none;
+  margin: 0px 3px;
+  margin-top: 10px;
+}
+.ip-Block .search-btn {
+  background: linear-gradient(45deg, #1e71c2, #087ff2b8);
+}
+.spinner-div {
+  margin-left: 45%;
+  margin-top: 8%;
+  margin-bottom: 8%;
+}
+
+.pi-spinner:before {
+  font-size: 30px;
+}
+
+.save-reset-btn a {
+  background-color: #087ff2;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 0px;
+  margin-left: 5px;
+  font-size: 12px;
+  float: right;
+  width: 100px;
+  text-align: center;
+}
+.save {
+  background-color: #087ff2;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 0px;
+  margin-left: 5px;
+  font-size: 12px;
+  float: right;
+  width: 100px;
+  text-align: center;
+}
+.save-reset-btn {
+  float: right;
+  margin: 10px 0px 0px 0px;
+  text-align: right;
+}
+
+table.ipblock-table {
+  border-collapse: separate;
+  border-spacing: 0;
+  width: 100%;
+  background-color: #fafafa;
+}
+.ipblock-table tr td {
+  border-top: 2px solid #fafafa !important;
+  border-bottom: 2px solid #fafafa !important;
+  padding: 10px !important;
+  font-size: 14px;
+  font-weight: 500;
+  background-color: #fff;
+  border-radius: 10px;
+}
+.ipblock-table tr th {
+  padding: 10px !important;
+  font-size: 14px;
+  font-weight: 500;
+  position: fixed;
+}
+
+.ipblock-table h2 {
+  margin: 0px;
+  padding: 3px 10px;
+  background: #e9ecef;
+  color: #495057;
+  padding: 10px !important;
+  font-size: 14px;
+  font-weight: 500;
+  border: none;
+}
+.ip-box label {
+  font-size: 14px;
+  font-weight: 600;
+  color: #575757;
+  padding-right: 10px;
+}
+.table-div {
+  margin-top: 0px;
+  height: 300px;
+  overflow-y: scroll;
+}
+.ip-box select {
+  border: 1px solid #ccc;
+  padding: 5px 10px;
+  border-radius: 0px;
+  font-size: 12px;
+  width: 300px;
+}
+.ip-most-inner-box table tr td {
+  border: 1px solid #ccc;
+  font-size: 12px;
+  padding: 0px 0px;
+}
+.ip-most-inner-box table tr td:first-child {
+  width: 25px;
+  padding-left: 5px;
+}
+
+.ipblock-table .fa {
+  color: #787575;
+  font-size: 10px;
+}
+
+.ipInput {
+  border-radius: 5px;
+  border: 1px solid#c9e8ff;
+  background-color: #fff;
+  transition: unset;
+  color: rgba(128, 124, 124, 0.86);
+  font-size: 14px;
+  outline: none;
+  width: 30%;
+}
+
+.wrapper {
+  background-color: #fafafa;
+  height: auto;
+}
+
+.home-resources h6 {
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.chatTranscript-container .search-btn {
+  background-color: #087ff2;
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  padding: 6px 20px;
+  text-transform: uppercase;
+  float: right;
+  border-radius: 5px;
+  font-weight: 600;
+  outline: none;
+  background: linear-gradient(45deg, #1e71c2, #087ff2b8);
+}
+.chatTranscript-container .clear-btn {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  float: left;
+  text-transform: uppercase;
+  padding: 6px 20px;
+  border-radius: 5px;
+  border: none;
+  background: none;
+  background-color: #858796;
+  margin-right: 10px;
+}
+
+.home-resources h6 span {
+  color: #4f8eca;
+}
+.home-resources h6 a {
+  color: #5f697a;
+}
+
+.resources-heading h1 {
+  color: #575757;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.chatTranscript-container .icon-columns {
+  float: right;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.chatTranscript-container .p-inputtext {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 1rem;
+  color: #495057;
+  background: #ffffff;
+  /* padding:7px; */
+  border: 1px solid #ced4da;
+  transition: background-color 0.2s, color 0.2s, border-color 0.2s,
+    box-shadow 0.2s;
+  -webkit-appearance: none;
+  appearance: none;
+  border-radius: 3px;
+  width: 100%;
+}
+.p-dropdown.p-component.p-inputwrapper.p-dropdown-clearable {
+  padding: 0px 10px;
+  border-radius: 5px;
+  border: 1px solid#c9e8ff;
+  background-color: #fff;
+  transition: unset;
+  color: rgba(128, 124, 124, 0.86);
+  font-size: 14px;
+  outline: none;
+  width: 40%;
+}
+.navbar {
+  padding-bottom: 0;
+  border-bottom: 2px solid #4f8eca;
+  margin-bottom: 15px;
+  opacity: 0.7;
+}
+.home-resources h6 span {
+  color: #4f8eca;
+}
+.home-resources h6 a {
+  color: #575757;
+}
+.home-resources h6 {
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.HeaderDiv{
+  background-color: #F3F4F1;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+@media screen and (max-width: 600px) {
+  .p-dropdown.p-component.p-inputwrapper.p-dropdown-clearable {  
+    width: 100%;
+  }
+}

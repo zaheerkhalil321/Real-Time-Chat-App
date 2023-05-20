@@ -1,0 +1,22 @@
+<svg id="hybred_panel" data-name="hybred panel" xmlns="http://www.w3.org/2000/svg" width="94.999" height="95.017" viewBox="0 0 94.999 95.017">
+  <g id="Group_6152" data-name="Group 6152" transform="translate(17.814 17.814)">
+    <g id="Group_6151" data-name="Group 6151" transform="translate(0)">
+      <path id="Path_5825" data-name="Path 5825" d="M134.6,96H98.972a2.972,2.972,0,1,0,0,5.943H134.6a2.972,2.972,0,0,0,0-5.943Z" transform="translate(-96 -96)" fill="#41a84e"/>
+    </g>
+  </g>
+  <g id="Group_6154" data-name="Group 6154" transform="translate(17.814 29.69)">
+    <g id="Group_6153" data-name="Group 6153" transform="translate(0 0)">
+      <path id="Path_5826" data-name="Path 5826" d="M122.721,160H98.972a2.972,2.972,0,1,0,0,5.943h23.752a2.972,2.972,0,0,0,0-5.943Z" transform="translate(-96 -160)" fill="#41a84e"/>
+    </g>
+  </g>
+  <g id="Group_6156" data-name="Group 6156">
+    <g id="Group_6155" data-name="Group 6155">
+      <path id="Path_5827" data-name="Path 5827" d="M65.319,0H11.876A11.887,11.887,0,0,0,0,11.876V71.257a2.972,2.972,0,0,0,1.71,2.689,3.012,3.012,0,0,0,1.259.28,2.972,2.972,0,0,0,1.9-.689L21.858,59.381H65.319A11.887,11.887,0,0,0,77.195,47.505V11.876A11.887,11.887,0,0,0,65.319,0Zm5.943,47.5a5.943,5.943,0,0,1-5.943,5.943H20.783a2.972,2.972,0,0,0-1.9.689L5.943,64.921V11.876a5.943,5.943,0,0,1,5.943-5.943H65.319a5.943,5.943,0,0,1,5.943,5.943Z" fill="#41a84e"/>
+    </g>
+  </g>
+  <g id="Group_6158" data-name="Group 6158" transform="translate(23.741 23.752)">
+    <g id="Group_6157" data-name="Group 6157" transform="translate(0)">
+      <path id="Path_5828" data-name="Path 5828" d="M187.384,128a2.972,2.972,0,0,0,0,5.943,5.943,5.943,0,0,1,5.943,5.943v50.23L183.3,182.1a2.992,2.992,0,0,0-1.853-.647H139.879a5.943,5.943,0,0,1-5.943-5.943v-2.972a2.972,2.972,0,1,0-5.943,0v2.972a11.887,11.887,0,0,0,11.876,11.876h40.523l14.032,11.229a2.972,2.972,0,0,0,4.828-2.322V139.876A11.887,11.887,0,0,0,187.384,128Z" transform="translate(-127.992 -128)" fill="#41a84e"/>
+    </g>
+  </g>
+</svg>

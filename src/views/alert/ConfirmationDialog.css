@@ -1,0 +1,33 @@
+.p-dialog .p-dialog-footer button {
+  background-color: #087ff2;
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  padding: 6px 20px;
+  text-transform: capitalize;
+  border-radius: 5px;
+  outline: none;
+  background: linear-gradient(45deg, #1e71c2, #087ff2b8);
+}
+.p-dialog .p-dialog-footer .p-confirm-dialog-reject {
+  background: #858796;
+}
+
+.pi-exclamation-triangle:before {
+  content: "\e922";
+  font-size: 25px;
+  color: #83afd8;
+}
+
+.p-dialog-resizable .p-dialog-header {
+  border-bottom: 2px solid #83afd8;
+  padding: 0.5rem 1.5rem;
+}
+.p-dialog .p-dialog-content {
+  padding: 1rem 1.5rem 1.5rem 1.5rem;
+}
+@media(max-width:575px){
+    .p-dialog{
+        padding: 0px 5px;
+    }
+}

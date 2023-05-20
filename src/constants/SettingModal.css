@@ -1,0 +1,61 @@
+h5.modal-title {
+    color: #000;
+    font-size: 24px;
+}
+
+.setting-modal .modal-header {
+    border: none;
+    padding-bottom: 0px;
+}
+.setting-modal .form-group {
+    float: left;
+    width: 100%;
+    margin: 10px 0px;
+}
+.setting-modal h2 {
+    font-size: 13px;
+    float: left;
+    margin: 0px;
+    padding: 5px 0px;
+    color: #00000091;
+    font-weight: 600;
+}
+.setting-modal .modal-content {
+    border-radius: 10px;
+}
+.setting-modal .p-inputswitch{
+    float: right;
+    width: 4rem;
+    height: 1.5rem;
+}
+.setting-modal .p-inputswitch.p-inputswitch-checked .p-inputswitch-slider:before {
+    transform: translateX(2.3rem);
+  
+}
+.setting-modal .p-inputswitch.p-component.p-inputswitch-checked{
+    top:0px !important;
+    transform: unset !important;
+}
+.setting-modal .p-inputswitch.p-component.p-inputswitch-checked:before {
+    content: 'Yes';
+    color: #fff;
+    position: relative;
+    left: 16px;
+    z-index: 1;
+    font-size: 12px;
+    top: -2px;
+}
+ .setting-modal .p-inputswitch:before{
+    content: 'No';
+    color: #fff;
+    position: relative;
+    left: 32px;
+    z-index: 1;
+    font-size: 12px;
+    top: -2px;
+}
+@media (min-width: 576px) {
+    .modal-dialog.setting-modal {
+        max-width: 400px;
+    }
+}
