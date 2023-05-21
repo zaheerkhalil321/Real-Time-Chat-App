@@ -11,7 +11,7 @@ This project is a real-time chat application built using React JS as the front-e
 
 ## Installation
 
-1. Clone the repository: `https://github.com/zaheerkhalil321/Real-Time-Chat-App.git`
+1. Clone the repository: `git clone https://github.com/zaheerkhalil321/Real-Time-Chat-App.git`
 2. Navigate to the project directory: `cd chat-app`
 3. Install dependencies: `npm install`
 
